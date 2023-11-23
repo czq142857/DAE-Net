@@ -1,5 +1,5 @@
-python main.py --train --sparse_loss_weight 0.001 --resolution 64 --branch_num 16 --data_dir ./bae_net_data/02691156_airplane/ --data_file 02691156_vox --sample_dir samples/02691156_airplane
-python main.py --iou --sparse_loss_weight 0.001 --resolution 64 --branch_num 16 --data_dir ./bae_net_data/02691156_airplane/ --data_file 02691156_test_vox --sample_dir samples/02691156_airplane
+python main.py --train --sparse_loss_weight 0.001 --resolution 64 --branch_num 16 --data_dir ./bae_net_data/02691156_airplane/ --data_file 02691156_vox --sample_dir samples/02691156_airplane --deform_loss_weight 0
+python main.py --iou --sparse_loss_weight 0.001 --resolution 64 --branch_num 16 --data_dir ./bae_net_data/02691156_airplane/ --data_file 02691156_test_vox --sample_dir samples/02691156_airplane --deform_loss_weight 0
 
 
 python main.py --train --sparse_loss_weight 0.01 --resolution 32 --branch_num 16 --data_dir ./bae_net_data/02773838_bag/ --data_file 02773838_vox --sample_dir samples/02773838_bag

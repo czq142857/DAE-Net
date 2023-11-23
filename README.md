@@ -1,5 +1,21 @@
 # DAE-Net
-PyTorch implementation for paper DAE-Net: Deforming Auto-Encoder for fine-grained shape co-segmentation.
+PyTorch implementation for paper [DAE-Net: Deforming Auto-Encoder for fine-grained shape co-segmentation](https://arxiv.org/abs/2311.13125), [Zhiqin Chen](https://czq142857.github.io/), [Qimin Chen](https://qiminchen.github.io/), [Hang Zhou](http://home.ustc.edu.cn/~zh2991/), [Hao Zhang](http://www.cs.sfu.ca/~haoz/).
+
+### [Paper](https://arxiv.org/abs/2311.13125)
+
+<img src='teaser.jpg' />
+
+## Citation
+If you find our work useful in your research, please consider citing:
+
+	@misc{chen2023daenet,
+		  title={DAE-Net: Deforming Auto-Encoder for fine-grained shape co-segmentation}, 
+		  author={Zhiqin Chen and Qimin Chen and Hang Zhou and Hao Zhang},
+		  year={2023},
+		  eprint={2311.13125},
+		  archivePrefix={arXiv},
+		  primaryClass={cs.CV}
+	}
 
 ## Requirements
 - Python 3 with numpy, h5py, scikit-image, opencv-python, and PyTorch.
@@ -11,7 +27,12 @@ Please download the pre-processed ShapeNet Part dataset [here](https://github.co
 To use your own data, please refer to [BAE-Net's data preparation code](https://github.com/czq142857/BAE-NET/tree/master/point_sampling).
 
 We also provide the pre-trained network weights for ShapeNet Part dataset.
-(The weights will be provided here in a personal cloud storage. Omitted for anonymity.)
+
+- [DAE_checkpoint.zip](https://drive.google.com/file/d/12i4PgRqFZ_lin1EPsG61Op6lfRo_jnWZ/view?usp=sharing)
+
+Backup links:
+
+- [DAE_checkpoint.zip](https://pan.baidu.com/s/1JuO7M8xY8BfglEDpsk5wkQ) (pwd: 1234)
 
 
 ## Training
